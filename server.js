@@ -1,5 +1,5 @@
 import express from "express";
-import excuseRouter from "./routes.js";
+import excuseRouter from "./excuse.routes.js";
 
 const PORT = 8080;
 
@@ -22,8 +22,6 @@ server.get("/", (req, res) => {
     }
   });
 });
-
-
 
 server.listen(PORT, () => {
   console.log("Listening on port:", PORT);

@@ -22,10 +22,4 @@ const excuses = [
   }
 ];
 
-let nextId = 4;
-
 export default excuses;
-
-export {
-    nextId
-};
